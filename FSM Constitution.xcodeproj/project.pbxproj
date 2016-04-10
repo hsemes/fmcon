@@ -7,15 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450FAC5F1C7E66D500D17DDB /* ContitutionalAmendmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAC5E1C7E66D500D17DDB /* ContitutionalAmendmentsTableViewController.swift */; };
+		450FAC611C7E943A00D17DDB /* CaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAC601C7E943A00D17DDB /* CaDetailViewController.swift */; };
+		450FAC631C7EA15400D17DDB /* COMMITTEE PROPOSAL 90-13.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC621C7EA15400D17DDB /* COMMITTEE PROPOSAL 90-13.html */; };
+		450FAC651C7EC72800D17DDB /* COMMITTEE PROPOSAL 90-19.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC641C7EC72800D17DDB /* COMMITTEE PROPOSAL 90-19.html */; };
+		450FAC671C7EC7BD00D17DDB /* COMMITTEE PROPOSAL 90-23.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC661C7EC7BD00D17DDB /* COMMITTEE PROPOSAL 90-23.html */; };
+		450FAC691C7EC81A00D17DDB /* COMMITTEE PROPOSAL 90-25.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC681C7EC81A00D17DDB /* COMMITTEE PROPOSAL 90-25.html */; };
+		450FAC6B1C7FBFBF00D17DDB /* COMMITTEE PROPOSAL NO. 01-01.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC6A1C7FBFBF00D17DDB /* COMMITTEE PROPOSAL NO. 01-01.html */; };
+		450FAC6D1C7FC0F800D17DDB /* COMMITTEE PROPOSAL NO. 01-02.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC6C1C7FC0F800D17DDB /* COMMITTEE PROPOSAL NO. 01-02.html */; };
+		450FAC6F1C7FC13C00D17DDB /* COMMITTEE PROPOSAL NO. 01-05.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC6E1C7FC13C00D17DDB /* COMMITTEE PROPOSAL NO. 01-05.html */; };
+		450FAC711C7FC17500D17DDB /* COMMITTEE PROPOSAL NO. 01-07.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC701C7FC17500D17DDB /* COMMITTEE PROPOSAL NO. 01-07.html */; };
+		450FAC731C7FC1C800D17DDB /* COMMITTEE PROPOSAL NO. 01-08.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC721C7FC1C800D17DDB /* COMMITTEE PROPOSAL NO. 01-08.html */; };
+		450FAC751C7FC1F900D17DDB /* COMMITTEE PROPOSAL NO. 01-09.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC741C7FC1F900D17DDB /* COMMITTEE PROPOSAL NO. 01-09.html */; };
+		450FAC771C7FC24800D17DDB /* COMMITTEE PROPOSAL NO. 01-11.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC761C7FC24800D17DDB /* COMMITTEE PROPOSAL NO. 01-11.html */; };
+		450FAC791C7FC28600D17DDB /* COMMITTEE PROPOSAL NO. 01-13.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC781C7FC28600D17DDB /* COMMITTEE PROPOSAL NO. 01-13.html */; };
+		450FAC7B1C7FC2BB00D17DDB /* COMMITTEE PROPOSAL NO. 01-15.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC7A1C7FC2BB00D17DDB /* COMMITTEE PROPOSAL NO. 01-15.html */; };
+		450FAC7D1C7FC2D700D17DDB /* COMMITTEE PROPOSAL NO. 01-16.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC7C1C7FC2D700D17DDB /* COMMITTEE PROPOSAL NO. 01-16.html */; };
+		450FAC7F1C7FC30200D17DDB /* COMMITTEE PROPOSAL NO. 01-21.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC7E1C7FC30200D17DDB /* COMMITTEE PROPOSAL NO. 01-21.html */; };
+		450FAC811C7FC31C00D17DDB /* COMMITTEE PROPOSAL NO. 01-24.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC801C7FC31C00D17DDB /* COMMITTEE PROPOSAL NO. 01-24.html */; };
+		450FAC831C7FC33900D17DDB /* COMMITTEE PROPOSAL NO. 01-25.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC821C7FC33900D17DDB /* COMMITTEE PROPOSAL NO. 01-25.html */; };
+		450FAC851C7FC34B00D17DDB /* COMMITTEE PROPOSAL NO. 01-26.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC841C7FC34B00D17DDB /* COMMITTEE PROPOSAL NO. 01-26.html */; };
+		450FAC891C8190AF00D17DDB /* CHUUK.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC881C8190AF00D17DDB /* CHUUK.html */; };
+		450FAC8B1C81911500D17DDB /* KOSRAE.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC8A1C81911500D17DDB /* KOSRAE.html */; };
+		450FAC8D1C81915700D17DDB /* POHNPEI.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC8C1C81915700D17DDB /* POHNPEI.html */; };
+		450FAC8F1C8191A400D17DDB /* YAP.html in Resources */ = {isa = PBXBuildFile; fileRef = 450FAC8E1C8191A400D17DDB /* YAP.html */; };
+		4596949C1C759F37007887E7 /* Article III.html in Resources */ = {isa = PBXBuildFile; fileRef = 4596949B1C759F37007887E7 /* Article III.html */; };
+		4596949F1C75A1D5007887E7 /* Article IV.html in Resources */ = {isa = PBXBuildFile; fileRef = 4596949E1C75A1D5007887E7 /* Article IV.html */; };
+		459694A11C75A2AF007887E7 /* Article V.html in Resources */ = {isa = PBXBuildFile; fileRef = 459694A01C75A2AF007887E7 /* Article V.html */; };
+		459694A31C75A2BD007887E7 /* Article VI.html in Resources */ = {isa = PBXBuildFile; fileRef = 459694A21C75A2BD007887E7 /* Article VI.html */; };
+		459694A51C75A2D2007887E7 /* Article VII.html in Resources */ = {isa = PBXBuildFile; fileRef = 459694A41C75A2D2007887E7 /* Article VII.html */; };
+		459694A71C75A2E3007887E7 /* Article VIII.html in Resources */ = {isa = PBXBuildFile; fileRef = 459694A61C75A2E3007887E7 /* Article VIII.html */; };
+		459694A91C75A2F6007887E7 /* Article IX.html in Resources */ = {isa = PBXBuildFile; fileRef = 459694A81C75A2F6007887E7 /* Article IX.html */; };
+		459694AB1C75A304007887E7 /* Article X.html in Resources */ = {isa = PBXBuildFile; fileRef = 459694AA1C75A304007887E7 /* Article X.html */; };
+		459694AD1C75A313007887E7 /* Article XI.html in Resources */ = {isa = PBXBuildFile; fileRef = 459694AC1C75A313007887E7 /* Article XI.html */; };
+		459694AF1C75A325007887E7 /* Article XII.html in Resources */ = {isa = PBXBuildFile; fileRef = 459694AE1C75A325007887E7 /* Article XII.html */; };
+		459694B11C75A335007887E7 /* Article XIII.html in Resources */ = {isa = PBXBuildFile; fileRef = 459694B01C75A335007887E7 /* Article XIII.html */; };
+		459694B31C75A34B007887E7 /* Article XIV.html in Resources */ = {isa = PBXBuildFile; fileRef = 459694B21C75A34B007887E7 /* Article XIV.html */; };
+		459694B51C75A35D007887E7 /* Article XV.html in Resources */ = {isa = PBXBuildFile; fileRef = 459694B41C75A35D007887E7 /* Article XV.html */; };
+		459694B71C75A37F007887E7 /* Article XVI.html in Resources */ = {isa = PBXBuildFile; fileRef = 459694B61C75A37F007887E7 /* Article XVI.html */; };
+		459694B91C75AE85007887E7 /* Preamble.html in Resources */ = {isa = PBXBuildFile; fileRef = 459694B81C75AE85007887E7 /* Preamble.html */; };
+		459694BB1C770066007887E7 /* 1fsm028_033.html in Resources */ = {isa = PBXBuildFile; fileRef = 459694BA1C770066007887E7 /* 1fsm028_033.html */; };
+		4596951A1C785F59007887E7 /* 1fsm174_182.html in Resources */ = {isa = PBXBuildFile; fileRef = 459695191C785F59007887E7 /* 1fsm174_182.html */; };
+		4596951C1C78609D007887E7 /* 1fsm405_432.html in Resources */ = {isa = PBXBuildFile; fileRef = 4596951B1C78609D007887E7 /* 1fsm405_432.html */; };
+		4596951E1C786155007887E7 /* 2fsm173_188.html in Resources */ = {isa = PBXBuildFile; fileRef = 4596951D1C786155007887E7 /* 2fsm173_188.html */; };
+		459695201C7861C7007887E7 /* 5fsm013_028.html in Resources */ = {isa = PBXBuildFile; fileRef = 4596951F1C7861C7007887E7 /* 5fsm013_028.html */; };
+		459695221C78622D007887E7 /* 5fsm091_107.html in Resources */ = {isa = PBXBuildFile; fileRef = 459695211C78622D007887E7 /* 5fsm091_107.html */; };
+		459695241C7863AB007887E7 /* T07_Ch01.html in Resources */ = {isa = PBXBuildFile; fileRef = 459695231C7863AB007887E7 /* T07_Ch01.html */; };
+		459695261C78641B007887E7 /* T07_Ch02.html in Resources */ = {isa = PBXBuildFile; fileRef = 459695251C78641B007887E7 /* T07_Ch02.html */; };
+		459695281C7864BC007887E7 /* 2fsm001_008.html in Resources */ = {isa = PBXBuildFile; fileRef = 459695271C7864BC007887E7 /* 2fsm001_008.html */; };
+		4596952A1C7E2FF7007887E7 /* PdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459695291C7E2FF7007887E7 /* PdfViewController.swift */; };
+		4596952C1C7E30F3007887E7 /* Micronesian_Constitutional_Convention_-1975-Vol-1-1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4596952B1C7E30F3007887E7 /* Micronesian_Constitutional_Convention_-1975-Vol-1-1.pdf */; };
 		45F7A9101C6D156600E7B85D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7A90F1C6D156600E7B85D /* AppDelegate.swift */; };
 		45F7A9121C6D156600E7B85D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7A9111C6D156600E7B85D /* FirstViewController.swift */; };
 		45F7A9141C6D156600E7B85D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7A9131C6D156600E7B85D /* SecondViewController.swift */; };
 		45F7A9171C6D156600E7B85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F7A9151C6D156600E7B85D /* Main.storyboard */; };
 		45F7A9191C6D156600E7B85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F7A9181C6D156600E7B85D /* Assets.xcassets */; };
 		45F7A91C1C6D156600E7B85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F7A91A1C6D156600E7B85D /* LaunchScreen.storyboard */; };
+		45F7A92C1C6D294A00E7B85D /* fsmconstitution.html in Resources */ = {isa = PBXBuildFile; fileRef = 45F7A92B1C6D294A00E7B85D /* fsmconstitution.html */; };
+		45F7A92E1C6D3E0700E7B85D /* StateConstitutionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F7A92D1C6D3E0700E7B85D /* StateConstitutionsTableViewController.swift */; };
+		45F7A9301C6D524F00E7B85D /* Article I.html in Resources */ = {isa = PBXBuildFile; fileRef = 45F7A92F1C6D524F00E7B85D /* Article I.html */; };
+		45F7A9321C6FB75000E7B85D /* Article II.html in Resources */ = {isa = PBXBuildFile; fileRef = 45F7A9311C6FB75000E7B85D /* Article II.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		450FAC5E1C7E66D500D17DDB /* ContitutionalAmendmentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContitutionalAmendmentsTableViewController.swift; sourceTree = "<group>"; };
+		450FAC601C7E943A00D17DDB /* CaDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaDetailViewController.swift; sourceTree = "<group>"; };
+		450FAC621C7EA15400D17DDB /* COMMITTEE PROPOSAL 90-13.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL 90-13.html"; sourceTree = "<group>"; };
+		450FAC641C7EC72800D17DDB /* COMMITTEE PROPOSAL 90-19.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL 90-19.html"; sourceTree = "<group>"; };
+		450FAC661C7EC7BD00D17DDB /* COMMITTEE PROPOSAL 90-23.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL 90-23.html"; sourceTree = "<group>"; };
+		450FAC681C7EC81A00D17DDB /* COMMITTEE PROPOSAL 90-25.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL 90-25.html"; sourceTree = "<group>"; };
+		450FAC6A1C7FBFBF00D17DDB /* COMMITTEE PROPOSAL NO. 01-01.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL NO. 01-01.html"; sourceTree = "<group>"; };
+		450FAC6C1C7FC0F800D17DDB /* COMMITTEE PROPOSAL NO. 01-02.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL NO. 01-02.html"; sourceTree = "<group>"; };
+		450FAC6E1C7FC13C00D17DDB /* COMMITTEE PROPOSAL NO. 01-05.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL NO. 01-05.html"; sourceTree = "<group>"; };
+		450FAC701C7FC17500D17DDB /* COMMITTEE PROPOSAL NO. 01-07.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL NO. 01-07.html"; sourceTree = "<group>"; };
+		450FAC721C7FC1C800D17DDB /* COMMITTEE PROPOSAL NO. 01-08.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL NO. 01-08.html"; sourceTree = "<group>"; };
+		450FAC741C7FC1F900D17DDB /* COMMITTEE PROPOSAL NO. 01-09.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL NO. 01-09.html"; sourceTree = "<group>"; };
+		450FAC761C7FC24800D17DDB /* COMMITTEE PROPOSAL NO. 01-11.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL NO. 01-11.html"; sourceTree = "<group>"; };
+		450FAC781C7FC28600D17DDB /* COMMITTEE PROPOSAL NO. 01-13.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL NO. 01-13.html"; sourceTree = "<group>"; };
+		450FAC7A1C7FC2BB00D17DDB /* COMMITTEE PROPOSAL NO. 01-15.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL NO. 01-15.html"; sourceTree = "<group>"; };
+		450FAC7C1C7FC2D700D17DDB /* COMMITTEE PROPOSAL NO. 01-16.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL NO. 01-16.html"; sourceTree = "<group>"; };
+		450FAC7E1C7FC30200D17DDB /* COMMITTEE PROPOSAL NO. 01-21.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL NO. 01-21.html"; sourceTree = "<group>"; };
+		450FAC801C7FC31C00D17DDB /* COMMITTEE PROPOSAL NO. 01-24.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL NO. 01-24.html"; sourceTree = "<group>"; };
+		450FAC821C7FC33900D17DDB /* COMMITTEE PROPOSAL NO. 01-25.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL NO. 01-25.html"; sourceTree = "<group>"; };
+		450FAC841C7FC34B00D17DDB /* COMMITTEE PROPOSAL NO. 01-26.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "COMMITTEE PROPOSAL NO. 01-26.html"; sourceTree = "<group>"; };
+		450FAC881C8190AF00D17DDB /* CHUUK.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CHUUK.html; sourceTree = "<group>"; };
+		450FAC8A1C81911500D17DDB /* KOSRAE.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = KOSRAE.html; sourceTree = "<group>"; };
+		450FAC8C1C81915700D17DDB /* POHNPEI.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = POHNPEI.html; sourceTree = "<group>"; };
+		450FAC8E1C8191A400D17DDB /* YAP.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = YAP.html; sourceTree = "<group>"; };
+		4596949B1C759F37007887E7 /* Article III.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article III.html"; sourceTree = "<group>"; };
+		4596949E1C75A1D5007887E7 /* Article IV.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article IV.html"; sourceTree = "<group>"; };
+		459694A01C75A2AF007887E7 /* Article V.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article V.html"; sourceTree = "<group>"; };
+		459694A21C75A2BD007887E7 /* Article VI.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article VI.html"; sourceTree = "<group>"; };
+		459694A41C75A2D2007887E7 /* Article VII.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article VII.html"; sourceTree = "<group>"; };
+		459694A61C75A2E3007887E7 /* Article VIII.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article VIII.html"; sourceTree = "<group>"; };
+		459694A81C75A2F6007887E7 /* Article IX.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article IX.html"; sourceTree = "<group>"; };
+		459694AA1C75A304007887E7 /* Article X.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article X.html"; sourceTree = "<group>"; };
+		459694AC1C75A313007887E7 /* Article XI.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article XI.html"; sourceTree = "<group>"; };
+		459694AE1C75A325007887E7 /* Article XII.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article XII.html"; sourceTree = "<group>"; };
+		459694B01C75A335007887E7 /* Article XIII.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article XIII.html"; sourceTree = "<group>"; };
+		459694B21C75A34B007887E7 /* Article XIV.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article XIV.html"; sourceTree = "<group>"; };
+		459694B41C75A35D007887E7 /* Article XV.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article XV.html"; sourceTree = "<group>"; };
+		459694B61C75A37F007887E7 /* Article XVI.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article XVI.html"; sourceTree = "<group>"; };
+		459694B81C75AE85007887E7 /* Preamble.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Preamble.html; sourceTree = "<group>"; };
+		459694BA1C770066007887E7 /* 1fsm028_033.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1fsm028_033.html; sourceTree = "<group>"; };
+		459695191C785F59007887E7 /* 1fsm174_182.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1fsm174_182.html; sourceTree = "<group>"; };
+		4596951B1C78609D007887E7 /* 1fsm405_432.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1fsm405_432.html; sourceTree = "<group>"; };
+		4596951D1C786155007887E7 /* 2fsm173_188.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2fsm173_188.html; sourceTree = "<group>"; };
+		4596951F1C7861C7007887E7 /* 5fsm013_028.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 5fsm013_028.html; sourceTree = "<group>"; };
+		459695211C78622D007887E7 /* 5fsm091_107.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 5fsm091_107.html; sourceTree = "<group>"; };
+		459695231C7863AB007887E7 /* T07_Ch01.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = T07_Ch01.html; sourceTree = "<group>"; };
+		459695251C78641B007887E7 /* T07_Ch02.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = T07_Ch02.html; sourceTree = "<group>"; };
+		459695271C7864BC007887E7 /* 2fsm001_008.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2fsm001_008.html; sourceTree = "<group>"; };
+		459695291C7E2FF7007887E7 /* PdfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PdfViewController.swift; sourceTree = "<group>"; };
+		4596952B1C7E30F3007887E7 /* Micronesian_Constitutional_Convention_-1975-Vol-1-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Micronesian_Constitutional_Convention_-1975-Vol-1-1.pdf"; path = "../../../../Google Drive/Micronesian Constitution 1975/Micronesian_Constitutional_Convention_-1975-Vol-1-1.pdf"; sourceTree = "<group>"; };
 		45F7A90C1C6D156600E7B85D /* FSM Constitution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FSM Constitution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F7A90F1C6D156600E7B85D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F7A9111C6D156600E7B85D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +128,10 @@
 		45F7A9181C6D156600E7B85D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45F7A91B1C6D156600E7B85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45F7A91D1C6D156600E7B85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F7A92B1C6D294A00E7B85D /* fsmconstitution.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = fsmconstitution.html; sourceTree = "<group>"; };
+		45F7A92D1C6D3E0700E7B85D /* StateConstitutionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateConstitutionsTableViewController.swift; sourceTree = "<group>"; };
+		45F7A92F1C6D524F00E7B85D /* Article I.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article I.html"; sourceTree = "<group>"; };
+		45F7A9311C6FB75000E7B85D /* Article II.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Article II.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +145,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		450FAC861C811CD000D17DDB /* FSMNational */ = {
+			isa = PBXGroup;
+			children = (
+				450FAC871C811D0C00D17DDB /* CCProposals */,
+				45F7A92B1C6D294A00E7B85D /* fsmconstitution.html */,
+				45F7A92F1C6D524F00E7B85D /* Article I.html */,
+				45F7A9311C6FB75000E7B85D /* Article II.html */,
+				4596949B1C759F37007887E7 /* Article III.html */,
+				4596949E1C75A1D5007887E7 /* Article IV.html */,
+				459694A01C75A2AF007887E7 /* Article V.html */,
+				459694A21C75A2BD007887E7 /* Article VI.html */,
+				459694A41C75A2D2007887E7 /* Article VII.html */,
+				459694A61C75A2E3007887E7 /* Article VIII.html */,
+				459694A81C75A2F6007887E7 /* Article IX.html */,
+				459694AA1C75A304007887E7 /* Article X.html */,
+				459694AC1C75A313007887E7 /* Article XI.html */,
+				459694AE1C75A325007887E7 /* Article XII.html */,
+				459694B01C75A335007887E7 /* Article XIII.html */,
+				459694B21C75A34B007887E7 /* Article XIV.html */,
+				459694B41C75A35D007887E7 /* Article XV.html */,
+				459694B61C75A37F007887E7 /* Article XVI.html */,
+				459694B81C75AE85007887E7 /* Preamble.html */,
+			);
+			name = FSMNational;
+			sourceTree = "<group>";
+		};
+		450FAC871C811D0C00D17DDB /* CCProposals */ = {
+			isa = PBXGroup;
+			children = (
+				450FAC621C7EA15400D17DDB /* COMMITTEE PROPOSAL 90-13.html */,
+				450FAC641C7EC72800D17DDB /* COMMITTEE PROPOSAL 90-19.html */,
+				450FAC661C7EC7BD00D17DDB /* COMMITTEE PROPOSAL 90-23.html */,
+				450FAC681C7EC81A00D17DDB /* COMMITTEE PROPOSAL 90-25.html */,
+				450FAC6A1C7FBFBF00D17DDB /* COMMITTEE PROPOSAL NO. 01-01.html */,
+				450FAC6C1C7FC0F800D17DDB /* COMMITTEE PROPOSAL NO. 01-02.html */,
+				450FAC6E1C7FC13C00D17DDB /* COMMITTEE PROPOSAL NO. 01-05.html */,
+				450FAC701C7FC17500D17DDB /* COMMITTEE PROPOSAL NO. 01-07.html */,
+				450FAC721C7FC1C800D17DDB /* COMMITTEE PROPOSAL NO. 01-08.html */,
+				450FAC741C7FC1F900D17DDB /* COMMITTEE PROPOSAL NO. 01-09.html */,
+				450FAC761C7FC24800D17DDB /* COMMITTEE PROPOSAL NO. 01-11.html */,
+				450FAC781C7FC28600D17DDB /* COMMITTEE PROPOSAL NO. 01-13.html */,
+				450FAC7A1C7FC2BB00D17DDB /* COMMITTEE PROPOSAL NO. 01-15.html */,
+				450FAC7C1C7FC2D700D17DDB /* COMMITTEE PROPOSAL NO. 01-16.html */,
+				450FAC7E1C7FC30200D17DDB /* COMMITTEE PROPOSAL NO. 01-21.html */,
+				450FAC801C7FC31C00D17DDB /* COMMITTEE PROPOSAL NO. 01-24.html */,
+				450FAC821C7FC33900D17DDB /* COMMITTEE PROPOSAL NO. 01-25.html */,
+				450FAC841C7FC34B00D17DDB /* COMMITTEE PROPOSAL NO. 01-26.html */,
+			);
+			name = CCProposals;
+			sourceTree = "<group>";
+		};
+		4596949D1C759F6F007887E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4596952B1C7E30F3007887E7 /* Micronesian_Constitutional_Convention_-1975-Vol-1-1.pdf */,
+				450FAC861C811CD000D17DDB /* FSMNational */,
+				459694BA1C770066007887E7 /* 1fsm028_033.html */,
+				459695191C785F59007887E7 /* 1fsm174_182.html */,
+				4596951B1C78609D007887E7 /* 1fsm405_432.html */,
+				4596951D1C786155007887E7 /* 2fsm173_188.html */,
+				4596951F1C7861C7007887E7 /* 5fsm013_028.html */,
+				459695211C78622D007887E7 /* 5fsm091_107.html */,
+				459695231C7863AB007887E7 /* T07_Ch01.html */,
+				459695251C78641B007887E7 /* T07_Ch02.html */,
+				459695271C7864BC007887E7 /* 2fsm001_008.html */,
+				450FAC881C8190AF00D17DDB /* CHUUK.html */,
+				450FAC8A1C81911500D17DDB /* KOSRAE.html */,
+				450FAC8C1C81915700D17DDB /* POHNPEI.html */,
+				450FAC8E1C8191A400D17DDB /* YAP.html */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		45F7A9031C6D156600E7B85D = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +238,14 @@
 			isa = PBXGroup;
 			children = (
 				45F7A90F1C6D156600E7B85D /* AppDelegate.swift */,
+				4596949D1C759F6F007887E7 /* Supporting Files */,
 				45F7A9111C6D156600E7B85D /* FirstViewController.swift */,
+				45F7A92D1C6D3E0700E7B85D /* StateConstitutionsTableViewController.swift */,
 				45F7A9131C6D156600E7B85D /* SecondViewController.swift */,
+				459695291C7E2FF7007887E7 /* PdfViewController.swift */,
 				45F7A9151C6D156600E7B85D /* Main.storyboard */,
+				450FAC5E1C7E66D500D17DDB /* ContitutionalAmendmentsTableViewController.swift */,
+				450FAC601C7E943A00D17DDB /* CaDetailViewController.swift */,
 				45F7A9181C6D156600E7B85D /* Assets.xcassets */,
 				45F7A91A1C6D156600E7B85D /* LaunchScreen.storyboard */,
 				45F7A91D1C6D156600E7B85D /* Info.plist */,
@@ -126,9 +312,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				459695261C78641B007887E7 /* T07_Ch02.html in Resources */,
+				450FAC691C7EC81A00D17DDB /* COMMITTEE PROPOSAL 90-25.html in Resources */,
+				450FAC651C7EC72800D17DDB /* COMMITTEE PROPOSAL 90-19.html in Resources */,
+				450FAC671C7EC7BD00D17DDB /* COMMITTEE PROPOSAL 90-23.html in Resources */,
+				459695281C7864BC007887E7 /* 2fsm001_008.html in Resources */,
 				45F7A91C1C6D156600E7B85D /* LaunchScreen.storyboard in Resources */,
+				450FAC771C7FC24800D17DDB /* COMMITTEE PROPOSAL NO. 01-11.html in Resources */,
+				4596951E1C786155007887E7 /* 2fsm173_188.html in Resources */,
+				450FAC811C7FC31C00D17DDB /* COMMITTEE PROPOSAL NO. 01-24.html in Resources */,
+				459695241C7863AB007887E7 /* T07_Ch01.html in Resources */,
+				459694B11C75A335007887E7 /* Article XIII.html in Resources */,
+				459695201C7861C7007887E7 /* 5fsm013_028.html in Resources */,
 				45F7A9191C6D156600E7B85D /* Assets.xcassets in Resources */,
+				459694A91C75A2F6007887E7 /* Article IX.html in Resources */,
+				450FAC851C7FC34B00D17DDB /* COMMITTEE PROPOSAL NO. 01-26.html in Resources */,
+				450FAC731C7FC1C800D17DDB /* COMMITTEE PROPOSAL NO. 01-08.html in Resources */,
+				4596951A1C785F59007887E7 /* 1fsm174_182.html in Resources */,
+				450FAC791C7FC28600D17DDB /* COMMITTEE PROPOSAL NO. 01-13.html in Resources */,
+				459694A11C75A2AF007887E7 /* Article V.html in Resources */,
 				45F7A9171C6D156600E7B85D /* Main.storyboard in Resources */,
+				450FAC7B1C7FC2BB00D17DDB /* COMMITTEE PROPOSAL NO. 01-15.html in Resources */,
+				450FAC711C7FC17500D17DDB /* COMMITTEE PROPOSAL NO. 01-07.html in Resources */,
+				450FAC6F1C7FC13C00D17DDB /* COMMITTEE PROPOSAL NO. 01-05.html in Resources */,
+				450FAC8D1C81915700D17DDB /* POHNPEI.html in Resources */,
+				450FAC6B1C7FBFBF00D17DDB /* COMMITTEE PROPOSAL NO. 01-01.html in Resources */,
+				459694A51C75A2D2007887E7 /* Article VII.html in Resources */,
+				459694A71C75A2E3007887E7 /* Article VIII.html in Resources */,
+				45F7A92C1C6D294A00E7B85D /* fsmconstitution.html in Resources */,
+				459694B51C75A35D007887E7 /* Article XV.html in Resources */,
+				4596951C1C78609D007887E7 /* 1fsm405_432.html in Resources */,
+				450FAC631C7EA15400D17DDB /* COMMITTEE PROPOSAL 90-13.html in Resources */,
+				4596949C1C759F37007887E7 /* Article III.html in Resources */,
+				459694B31C75A34B007887E7 /* Article XIV.html in Resources */,
+				459694AF1C75A325007887E7 /* Article XII.html in Resources */,
+				459694BB1C770066007887E7 /* 1fsm028_033.html in Resources */,
+				450FAC831C7FC33900D17DDB /* COMMITTEE PROPOSAL NO. 01-25.html in Resources */,
+				459694AD1C75A313007887E7 /* Article XI.html in Resources */,
+				459694AB1C75A304007887E7 /* Article X.html in Resources */,
+				4596949F1C75A1D5007887E7 /* Article IV.html in Resources */,
+				450FAC7F1C7FC30200D17DDB /* COMMITTEE PROPOSAL NO. 01-21.html in Resources */,
+				45F7A9321C6FB75000E7B85D /* Article II.html in Resources */,
+				459694B91C75AE85007887E7 /* Preamble.html in Resources */,
+				45F7A9301C6D524F00E7B85D /* Article I.html in Resources */,
+				450FAC891C8190AF00D17DDB /* CHUUK.html in Resources */,
+				450FAC751C7FC1F900D17DDB /* COMMITTEE PROPOSAL NO. 01-09.html in Resources */,
+				450FAC6D1C7FC0F800D17DDB /* COMMITTEE PROPOSAL NO. 01-02.html in Resources */,
+				4596952C1C7E30F3007887E7 /* Micronesian_Constitutional_Convention_-1975-Vol-1-1.pdf in Resources */,
+				459694B71C75A37F007887E7 /* Article XVI.html in Resources */,
+				450FAC8F1C8191A400D17DDB /* YAP.html in Resources */,
+				450FAC7D1C7FC2D700D17DDB /* COMMITTEE PROPOSAL NO. 01-16.html in Resources */,
+				450FAC8B1C81911500D17DDB /* KOSRAE.html in Resources */,
+				459695221C78622D007887E7 /* 5fsm091_107.html in Resources */,
+				459694A31C75A2BD007887E7 /* Article VI.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +375,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4596952A1C7E2FF7007887E7 /* PdfViewController.swift in Sources */,
 				45F7A9141C6D156600E7B85D /* SecondViewController.swift in Sources */,
 				45F7A9101C6D156600E7B85D /* AppDelegate.swift in Sources */,
+				450FAC5F1C7E66D500D17DDB /* ContitutionalAmendmentsTableViewController.swift in Sources */,
+				45F7A92E1C6D3E0700E7B85D /* StateConstitutionsTableViewController.swift in Sources */,
 				45F7A9121C6D156600E7B85D /* FirstViewController.swift in Sources */,
+				450FAC611C7E943A00D17DDB /* CaDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +529,7 @@
 				45F7A9221C6D156600E7B85D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

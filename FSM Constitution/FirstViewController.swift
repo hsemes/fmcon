@@ -1,18 +1,20 @@
-//
-//  FirstViewController.swift
-//  FSM Constitution
-//
-//  Created by HS on 2/11/16.
-//  Copyright © 2016 HS. All rights reserved.
-//
-
 import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet weak var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        if let htmlFile = NSBundle.mainBundle().pathForResource("fsmconstitution", ofType: "html") {
+            if let htmlData = NSData(contentsOfFile: htmlFile) { let baseURL = NSURL(fileURLWithPath:
+            NSBundle.mainBundle().bundlePath)
+        webView.loadData(htmlData, MIMEType: "text/html", textEncodingName: "UTF-8", baseURL: baseURL)
+    
+      } }
+    
+    
     }
 
     override func didReceiveMemoryWarning() {
